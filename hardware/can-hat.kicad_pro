@@ -30,18 +30,174 @@
       "version": 0
     },
     "pin_map": [
-      [0,0,0,0,0,0,1,0,0,0,0,2],
-      [0,2,0,1,0,0,1,0,2,2,2,2],
-      [0,0,0,0,0,0,1,0,1,0,1,2],
-      [0,1,0,0,0,0,1,1,2,1,1,2],
-      [0,0,0,0,0,0,1,0,0,0,0,2],
-      [0,0,0,0,0,0,0,0,0,0,0,2],
-      [1,1,1,1,1,0,1,1,1,1,1,2],
-      [0,0,0,1,0,0,1,0,0,0,0,2],
-      [0,2,1,2,0,0,1,0,2,2,2,2],
-      [0,2,0,1,0,0,1,0,2,0,0,2],
-      [0,2,1,1,0,0,1,0,2,0,0,2],
-      [2,2,2,2,2,2,2,2,2,2,2,2]
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
     ],
     "rule_severities": {
       "bus_definition_conflict": "error",
@@ -156,14 +312,54 @@
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
-        {"group_by": false, "label": "Reference", "name": "Reference", "show": true},
-        {"group_by": false, "label": "Qty", "name": "${QUANTITY}", "show": true},
-        {"group_by": true, "label": "Value", "name": "Value", "show": true},
-        {"group_by": true, "label": "DNP", "name": "${DNP}", "show": true},
-        {"group_by": true, "label": "Exclude from BOM", "name": "${EXCLUDE_FROM_BOM}", "show": true},
-        {"group_by": true, "label": "Exclude from Board", "name": "${EXCLUDE_FROM_BOARD}", "show": true},
-        {"group_by": true, "label": "Footprint", "name": "Footprint", "show": true},
-        {"group_by": false, "label": "Datasheet", "name": "Datasheet", "show": true}
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        }
       ],
       "filter_string": "",
       "group_symbols": true,
@@ -213,7 +409,22 @@
     "subpart_id_separator": 0
   },
   "sheets": [
-    ["bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2", "Root"]
+    [
+      "bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2",
+      "Root"
+    ],
+    [
+      "cffcbb79-f928-4938-8342-415f3cadb2dd",
+      "CAN0"
+    ],
+    [
+      "00e2c20b-7be4-4f83-a3f0-21fb1d83928e",
+      "CAN1"
+    ],
+    [
+      "748c85b6-cf1e-459f-b03b-a42e443a0481",
+      "CAN2"
+    ]
   ],
   "text_variables": {}
 }

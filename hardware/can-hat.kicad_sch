@@ -3,12 +3,525 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2")
-	(paper "A4")
-	(lib_symbols
+	(paper "User" 177.8 127)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 72.39 40.64) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3520090b-20d5-4fc6-8ea1-4a60e02be76b")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 41.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e50fe3-f28c-4fd1-8ec2-432852c2430a")
+	)
+	(wire
+		(pts
+			(xy 43.18 43.18) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803d0320-d916-489e-89bb-0072bc2c6a22")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a8690b-45df-459a-966c-23ecfd49bc7a")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c041ef1c-1c66-451c-a3fa-43f0de2eb4fa")
+	)
+	(wire
+		(pts
+			(xy 43.18 45.72) (xy 41.91 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f31d62-ac7d-4ac5-955f-fa26135e6d68")
+	)
+	(wire
+		(pts
+			(xy 101.6 40.64) (xy 100.33 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef3edd7-eb60-4019-a558-521b782e1a39")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0676491-ee51-4371-92c4-5ca9fcb93bb8")
+	)
+	(wire
+		(pts
+			(xy 72.39 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b1caec-3e2d-432c-baf6-1675740b9d6d")
+	)
+	(label "SPI3_MISO"
+		(at 101.6 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c042b37-55ff-4b28-a183-c377392d7ba2")
+	)
+	(label "SPI3_SCLK"
+		(at 101.6 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26090c9e-eb46-4785-a61c-c1d263d343ac")
+	)
+	(label "SPI1_MISO"
+		(at 72.39 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "366d1922-babb-45d8-911a-ed7042b65ece")
+	)
+	(label "SPI3_MOSI"
+		(at 101.6 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a783d54-92fd-4bb3-97a1-daadcd415156")
+	)
+	(label "SPI1_MOSI"
+		(at 72.39 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6492eee7-519b-4d5d-8d39-73dc42e82f50")
+	)
+	(label "SPI1_MISO"
+		(at 43.18 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9bdcc48-f8f3-4f64-b874-3d06e7fa43ed")
+	)
+	(label "SPI1_SCLK"
+		(at 43.18 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f57e2864-cd7b-4174-89e6-21f7f047bb18")
+	)
+	(label "SPI1_MOSI"
+		(at 43.18 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6e5007a-ddd0-46cc-8972-902a68137ed3")
+	)
+	(label "SPI1_SCLK"
+		(at 72.39 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbdddebe-7720-4d26-822b-fa59a236472d")
+	)
+	(sheet
+		(at 58.42 25.4)
+		(size 12.7 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00e2c20b-7be4-4f83-a3f0-21fb1d83928e")
+		(property "Sheetname" "CAN1"
+			(at 58.42 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_channel.kicad_sch"
+			(at 55.626 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 71.12 27.94 0)
+			(uuid "f164fb29-d675-43f3-bf04-f15985903317")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 71.12 30.48 0)
+			(uuid "9c3affd6-92dc-4fcf-8b58-812e6739b85f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 71.12 34.29 0)
+			(uuid "dd76fa8f-c93c-4824-875b-bfcb3f188daa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 71.12 36.83 0)
+			(uuid "b8c8256d-ac93-4cd1-a889-849c50ac66c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 71.12 40.64 0)
+			(uuid "0c50aabf-1e3a-4789-a33b-78201fd7b908")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 71.12 43.18 0)
+			(uuid "36ff6ad6-b2eb-4215-970d-cc330791a323")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 71.12 45.72 0)
+			(uuid "12380b9c-ca6d-4aa0-b830-ec7f11b681ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "can-hat"
+				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 25.4)
+		(size 12.7 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "748c85b6-cf1e-459f-b03b-a42e443a0481")
+		(property "Sheetname" "CAN2"
+			(at 87.63 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_channel.kicad_sch"
+			(at 84.836 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 100.33 27.94 0)
+			(uuid "ada799ee-4833-414a-a708-856f68445d77")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 100.33 30.48 0)
+			(uuid "8ac492a6-920f-4ee8-b030-9b631c322e53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 100.33 34.29 0)
+			(uuid "72a8c4a8-c467-41ce-aec3-2bc6c3aaad4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 100.33 36.83 0)
+			(uuid "a3c94e6e-24f4-4538-9518-758ca98f9e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 100.33 40.64 0)
+			(uuid "0f0d6e3c-f43e-4807-be25-ca4cffe624cd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 100.33 43.18 0)
+			(uuid "71537138-cf63-45bf-ba64-66a05ad0d2eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 100.33 45.72 0)
+			(uuid "76fc02c9-45dc-4ec9-96c6-7996bd4ba9f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "can-hat"
+				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 25.4)
+		(size 12.7 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cffcbb79-f928-4938-8342-415f3cadb2dd")
+		(property "Sheetname" "CAN0"
+			(at 29.21 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_channel.kicad_sch"
+			(at 26.416 47.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CANH" bidirectional
+			(at 41.91 27.94 0)
+			(uuid "dfe65520-9667-4c2a-8172-386ba7b664e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CANL" bidirectional
+			(at 41.91 30.48 0)
+			(uuid "ae85f2ef-4021-453f-b708-b9e5f7747c85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CS" input
+			(at 41.91 34.29 0)
+			(uuid "5cbca650-8120-4bee-9d9c-12b75e66e394")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INT" output
+			(at 41.91 36.83 0)
+			(uuid "1b664f26-8b8f-4e7a-9a79-ca83fb8aad7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MISO" output
+			(at 41.91 40.64 0)
+			(uuid "07d65c3c-f02a-4a26-a752-05715b8e6bba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOSI" input
+			(at 41.91 43.18 0)
+			(uuid "be7dbf1c-d614-43ea-bc03-da0650577e71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCLK" input
+			(at 41.91 45.72 0)
+			(uuid "11ab93dd-880e-456a-b890-b853d1bf7031")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "can-hat"
+				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2"
+					(page "2")
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
