@@ -1,25 +1,26 @@
 # can-hat
 
-can hat design for raspberry pis
+![the main schematic](https://cdn.hackclub.com/019dc829-20e5-78ac-9db8-4ea4736f9ba4/can-hat.svg)
+![the can channel schematic](https://cdn.hackclub.com/019dc829-1d3c-7ace-a1cf-2922d84d61cc/can_channel.svg)
 
 The canonical repo for this is hosted on tangled over at [`dunkirk.sh/can-hat`](https://tangled.org/dunkirk.sh/can-hat)
 
 ## BOM
 
-| Component | LCSC # | Qty | Placement |
-|---|---|---|---|
-| MCP2518FDT-H/SL | C626759 | 3 | Hand solder |
-| MCP2562FDT-E/SN | C511335 | 3 | Hand solder |
-| OVETGLJANF-40MHZ | C295515 | 3 | Hand solder |
-| AT24C32D-SSHM-T | search LCSC | 1 | Hand solder |
-| 100nF 0603 X7R | basic | ~10 | PCBA |
-| 10µF 0805 | basic | 2 | PCBA |
-| 120Ω 0603 | basic | 3 | PCBA |
-| 10kΩ 0603 | basic | 6 | PCBA |
-| 3.9kΩ 0603 | basic | 2 | PCBA |
-| 15EDGVC-3.5-02P (header) | search Degson | 3 | Hand solder |
-| 15EDGKNM-3.5-02P (plug) | search Degson | 3 | Wire side |
-| 2×20 stacking header | — | 1 | Hand solder |
+| Name | Purpose | Quantity | Total Cost (USD) | Distributor |
+|---|---|---|---|---|
+| [2×20 40-pin stacking female header](https://www.amazon.com/dp/B0827THC7R) | 15-16mm pin length to clear Pi 5 active cooler, hand solder | 1 | $9.90 | Amazon |
+| [10kΩ 0603](https://www.lcsc.com/product-detail/C25803.html) | MCP2518FD RESET pull-up and MCP2562FD STBY pull-down, PCBA | 100 | $0.18 | LCSC |
+| [1kΩ 0603](https://www.lcsc.com/product-detail/C21190.html) | EEPROM write-protect pull-up to 3.3V, PCBA | 100 | $0.16 | LCSC |
+| [3.9kΩ 0603](https://www.lcsc.com/product-detail/C23196.html) | EEPROM SDA/SCL pull-ups to 3.3V, PCBA | 100 | $0.16 | LCSC |
+| [120Ω 0603](https://www.lcsc.com/product-detail/C25879.html) | CAN bus termination resistors, one per channel, PCBA | 100 | $0.09 | LCSC |
+| [10µF 0805](https://www.lcsc.com/product-detail/C15850.html) | Bulk caps for 3.3V and 5V rails, PCBA | 20 | $0.43 | LCSC |
+| [100nF 0603 X7R](https://www.lcsc.com/product-detail/C14663.html) | Decoupling caps for all ICs, PCBA | 100 | $0.30 | LCSC |
+| [15EDGRC-3.5-02P (plug & header)](https://www.lcsc.com/product-detail/C5632692.html) | PCB-side right-angle pluggable terminal block, 3.5mm pitch, 2-pin, hand solder | 10 | $3.21 | LCSC |
+| [AT24C32D-SSHM-T](https://www.lcsc.com/product-detail/C60583.html) | 32Kbit I2C EEPROM for HAT ID, SOIC-8, hand solder | 5 | $1.48 | LCSC |
+| [OVETGLJANF-40MHZ](https://www.lcsc.com/product-detail/C295515.html) | 40MHz active oscillator, 3.3V, SMD5032-4P, hand solder | 11 | $6.14 | LCSC |
+| [MCP2562FDT-E/SN](https://www.lcsc.com/product-detail/C511335.html) | CAN FD transceiver with VIO pin, SOIC-8, hand solder | 11 | $12.87 | LCSC |
+| [MCP2518FDT-H/SL](https://www.lcsc.com/product-detail/C626759.html) | CAN FD SPI controller, SOIC-14, hand solder | 11 | $27.07 | LCSC |
 
 The AT24C32D write-protect pin should have a jumper pad or test point so it can be pulled low to flash, then left pulled high permanently after.
 
