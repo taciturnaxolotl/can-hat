@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "RPI_Hat")(type "KiCad")(uri "${KIPRJMOD}/libraries/RPi_Hat_Template/footprints/RPI_Hat.pretty")(options "")(descr ""))
+  (lib (name "Degson")(type "KiCad")(uri "${KIPRJMOD}/libraries/Degson")(options "")(descr ""))
+  (lib (name "oshw")(type "KiCad")(uri "${KIPRJMOD}/libraries/oshw")(options "")(descr ""))
 )

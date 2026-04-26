@@ -11,10 +11,7 @@
 		(company "Kieran Klukas")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
 				(offset 0.762)
 				(hide yes)
@@ -23,15 +20,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 6.858 0)
+				(at 0 1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
+			(property "Value" "TestPoint_2Pole"
+				(at 0 -1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -39,24 +36,6 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +44,25 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2-polar test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "point tp"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,9 +80,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "TestPoint_0_1"
+			(symbol "TestPoint_2Pole_0_1"
 				(circle
-					(center 0 3.302)
+					(center -1.778 0)
 					(radius 0.762)
 					(stroke
 						(width 0)
@@ -95,10 +92,19 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(circle
+					(center 1.778 0)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -108,6 +114,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2088,7 +2112,7 @@
 		(uuid "815b826b-dbb7-48ff-9da6-fcf700cf7fef")
 	)
 	(junction
-		(at 86.36 67.31)
+		(at 85.09 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4ad81a-e8a3-4c6c-b8cf-0b365770326c")
@@ -2163,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 67.31) (xy 86.36 69.85)
+			(xy 85.09 63.5) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2213,6 +2237,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 71.12) (xy 88.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3011e499-49f9-46dd-a5b9-ac7da212165f")
+	)
+	(wire
+		(pts
 			(xy 91.44 30.48) (xy 91.44 33.02)
 		)
 		(stroke
@@ -2243,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 86.36 67.31)
+			(xy 87.63 63.5) (xy 85.09 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2373,6 +2407,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80aa88fd-1fee-4241-a837-eadee74d572c")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 172.72 59.69)
 		)
 		(stroke
@@ -2483,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 59.69) (xy 86.36 67.31)
+			(xy 85.09 58.42) (xy 85.09 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 99.06 67.31)
+			(xy 92.71 63.5) (xy 100.33 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2670,16 +2714,6 @@
 			(type default)
 		)
 		(uuid "ec04d244-6cf3-42aa-99e5-62e1d7702862")
-	)
-	(wire
-		(pts
-			(xy 99.06 67.31) (xy 99.06 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9772c04-b000-4df2-a9cc-4761b3f3e44b")
 	)
 	(wire
 		(pts
@@ -2982,7 +3016,7 @@
 		(uuid "e9bdcc48-f8f3-4f64-b874-3d06e7fa43ed")
 	)
 	(label "WriteProtect"
-		(at 86.36 59.69 0)
+		(at 85.09 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,16 +3557,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 67.31 270)
+		(at 90.17 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23e56d0f-4b90-4184-a94e-4eb88ac08815")
 		(property "Reference" "R7"
-			(at 91.44 62.23 90)
+			(at 90.17 59.944 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3540,7 +3573,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 91.44 64.77 90)
+			(at 90.17 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3581,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 91.44 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3590,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3599,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 67.31 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3891,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 99.06 66.04 0)
+		(at 100.33 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3867,7 +3900,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e91f672-df1a-4db2-ba50-a4c9e556e2ec")
 		(property "Reference" "#PWR043"
-			(at 99.06 69.85 0)
+			(at 100.33 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3909,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 99.06 60.96 0)
+			(at 100.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 66.04 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 66.04 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,7 +3935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 99.06 66.04 0)
+			(at 100.33 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4982,6 +5015,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 101.6 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8d269c8-5dff-4bf0-803a-85870ca7317e")
+		(property "Reference" "#PWR055"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53b25092-9aa4-4f60-9d90-b064e92119f2")
+		)
+		(instances
+			(project "can-hat"
+				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 185.42 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5182,35 +5281,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 86.36 69.85 180)
+		(lib_id "Connector:TestPoint_2Pole")
+		(at 93.98 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df5a1c15-1315-4c7e-a285-4b97b8f863d1")
+		(uuid "e0ab15a1-2f17-486a-a0b6-8489b2b2d233")
 		(property "Reference" "TP1"
-			(at 88.9 71.8819 0)
+			(at 94.488 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "WP TestPoint"
-			(at 88.9 74.4219 0)
+		(property "Value" "WriteProtect Enable"
+			(at 94.742 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 81.28 69.85 0)
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 69.85 0)
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,8 +5323,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 86.36 69.85 0)
+		(property "Description" "2-polar test point"
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +5333,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d87eb829-0f75-4b5b-a0a0-5cfb0684787c")
+			(uuid "e454c73e-5641-490e-bef4-fe9208f8fc6e")
+		)
+		(pin "2"
+			(uuid "2fc3e705-d14b-491d-9a89-bc90d1cac45a")
 		)
 		(instances
 			(project ""
