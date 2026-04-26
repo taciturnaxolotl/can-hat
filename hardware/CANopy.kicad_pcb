@@ -208,7 +208,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/e885c18f-d886-45e7-8b88-5b38f66772ba")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -356,7 +356,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/8c393905-1f5c-43d1-a3bd-fc2fab016ba3")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -505,7 +505,7 @@
 		(property ki_fp_filters "DFN*1EP*3x4.5mm*P0.65mm*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/7e7e047d-0ef5-4af2-bf19-3b408467b531")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -4.435)
@@ -1678,7 +1678,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d03277df-14b1-4a1f-bbdf-d2fbc6f4bb88")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -1832,7 +1832,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/c5038975-6dd9-41fc-912e-849e51105138")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 -2.56)
@@ -2210,7 +2210,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/ad5e0a1d-ae4e-4568-8fce-c54d35951fbb")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2358,7 +2358,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/e885c18f-d886-45e7-8b88-5b38f66772ba")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2506,7 +2506,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/ad5e0a1d-ae4e-4568-8fce-c54d35951fbb")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2654,7 +2654,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3742b2b4-b6b7-4016-a9b5-12955374b980")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -2802,7 +2802,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/b29e40fc-7b6a-4b68-82b8-2bd0d8d439e8")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -3381,7 +3381,7 @@
 		)
 		(path "/ff49db9c-c0d3-4f04-a6db-91723aafa73b")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -29 0)
@@ -4650,7 +4650,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/b29e40fc-7b6a-4b68-82b8-2bd0d8d439e8")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -4799,7 +4799,7 @@
 		(property ki_fp_filters "DFN*1EP*3x4.5mm*P0.65mm*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/7e7e047d-0ef5-4af2-bf19-3b408467b531")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -4.435)
@@ -5175,7 +5175,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/4130b5bb-0ecd-4320-b9cd-24ccd74e2148")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5323,7 +5323,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/ad5e0a1d-ae4e-4568-8fce-c54d35951fbb")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5471,7 +5471,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/b29e40fc-7b6a-4b68-82b8-2bd0d8d439e8")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -5619,7 +5619,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/4130b5bb-0ecd-4320-b9cd-24ccd74e2148")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6727,7 +6727,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/8c393905-1f5c-43d1-a3bd-fc2fab016ba3")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -6874,7 +6874,7 @@
 		(property ki_fp_filters "Oscillator*Abracon*ASCO*1.6x1.2mm*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/058a522f-becb-4533-a845-d20f48132ea7")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.76 -1.86)
@@ -7131,7 +7131,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/fce47d83-1e8f-4288-97b2-8bc87eee754f")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -7279,7 +7279,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/fce47d83-1e8f-4288-97b2-8bc87eee754f")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -7426,7 +7426,7 @@
 		(property ki_fp_filters "Oscillator*Abracon*ASCO*1.6x1.2mm*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/058a522f-becb-4533-a845-d20f48132ea7")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.76 -1.86)
@@ -7684,7 +7684,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5da76b4f-d28b-41d0-97dc-15db633cb908")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.65 -8.22)
@@ -7910,7 +7910,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/033f26e5-98d4-49d8-b923-408c71a3409c")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -8064,7 +8064,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/4130b5bb-0ecd-4320-b9cd-24ccd74e2148")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8212,7 +8212,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/8c393905-1f5c-43d1-a3bd-fc2fab016ba3")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8360,7 +8360,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/e885c18f-d886-45e7-8b88-5b38f66772ba")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8508,7 +8508,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/637010f9-198a-4a0d-9f61-3eb4bc24b8c8")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -8657,7 +8657,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00e88525-63b6-4c5c-88bf-ddecd265849f")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.65 -8.22)
@@ -8884,7 +8884,7 @@
 		(property ki_fp_filters "*SO*3.9x4.9mm*P1.27mm*")
 		(path "/09a5fadf-bb2d-4d06-beab-def9ce8e4e0b")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 -2.56)
@@ -9263,7 +9263,7 @@
 		(property ki_fp_filters "DFN*1EP*3x4.5mm*P0.65mm*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/7e7e047d-0ef5-4af2-bf19-3b408467b531")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -4.435)
@@ -9640,7 +9640,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/89bdec6a-3dd4-44d6-a8f0-296bd8e58426")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.65 -8.22)
@@ -9865,7 +9865,7 @@
 		(property ki_fp_filters "Oscillator*Abracon*ASCO*1.6x1.2mm*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/058a522f-becb-4533-a845-d20f48132ea7")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.76 -1.86)
@@ -10112,7 +10112,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e0ab15a1-2f17-486a-a0b6-8489b2b2d233")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.57 0.4)
@@ -10377,7 +10377,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/748c85b6-cf1e-459f-b03b-a42e443a0481/c5038975-6dd9-41fc-912e-849e51105138")
 		(sheetname "/CAN2/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 -2.56)
@@ -10755,7 +10755,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/23e56d0f-4b90-4184-a94e-4eb88ac08815")
 		(sheetname "/")
-		(sheetfile "can-hat.kicad_sch")
+		(sheetfile "CANopy.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)
@@ -10903,7 +10903,7 @@
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/00e2c20b-7be4-4f83-a3f0-21fb1d83928e/c5038975-6dd9-41fc-912e-849e51105138")
 		(sheetname "/CAN1/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.06 -2.56)
@@ -11281,7 +11281,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cffcbb79-f928-4938-8342-415f3cadb2dd/fce47d83-1e8f-4288-97b2-8bc87eee754f")
 		(sheetname "/CAN0/")
-		(sheetfile "can_channel.kicad_sch")
+		(sheetfile "CANopy_branch.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.7 -0.35)

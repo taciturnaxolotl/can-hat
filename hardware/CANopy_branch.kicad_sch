@@ -5,7 +5,7 @@
 	(uuid "9116dce4-ee6f-4c1d-b606-42cf2e075a74")
 	(paper "User" 177.8 120.65)
 	(title_block
-		(title "CAN Channel")
+		(title "CANopy Branch")
 		(date "2026-04-25")
 		(rev "1")
 		(company "Kieran Klukas")
@@ -2239,13 +2239,13 @@
 			(uuid "8b7b24ca-f8f0-475a-a202-8a459d2ad8b2")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR0101")
 					(unit 1)
@@ -2319,13 +2319,13 @@
 			(uuid "0d64e8d3-4c49-434e-8462-0e37fefb4619")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR0102")
 					(unit 1)
@@ -2415,13 +2415,13 @@
 			(uuid "3bb01e7f-2f26-4d61-9a71-7c050529a288")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "Y?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "Y2")
 					(unit 1)
@@ -2495,13 +2495,13 @@
 			(uuid "62651058-193f-44b1-82ce-36bf351adfd1")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR019")
 					(unit 1)
@@ -2588,13 +2588,13 @@
 			(uuid "22169ec2-6358-48f3-a06c-be6fa03f992b")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "R?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "R4")
 					(unit 1)
@@ -2668,13 +2668,13 @@
 			(uuid "3ec16862-4b38-434c-88c1-a78a975cdf17")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR021")
 					(unit 1)
@@ -2748,13 +2748,13 @@
 			(uuid "9a1b809e-a7a2-450a-9e2d-464c111ee99d")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR017")
 					(unit 1)
@@ -2828,13 +2828,13 @@
 			(uuid "95a65c72-d1d8-4d93-8abc-b734cb66dca3")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR020")
 					(unit 1)
@@ -2962,13 +2962,13 @@
 			(uuid "b11f4b1c-63c8-4dc5-bc8e-26fbeb85a8b9")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "U?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "U3")
 					(unit 1)
@@ -3042,13 +3042,13 @@
 			(uuid "70e128cf-6788-491d-bc3b-39998d3e6294")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR013")
 					(unit 1)
@@ -3135,13 +3135,13 @@
 			(uuid "7a9b6ce7-0770-4dea-a7ee-a342ae6db66f")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "C?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "C6")
 					(unit 1)
@@ -3215,13 +3215,13 @@
 			(uuid "57ccbd1a-53c1-4159-9afc-3ef81f3e4712")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR014")
 					(unit 1)
@@ -3306,13 +3306,13 @@
 			(uuid "c7c26cbb-28fd-4843-ae11-4a21d176f19e")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "R?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "R3")
 					(unit 1)
@@ -3399,13 +3399,13 @@
 			(uuid "e2c1395c-a379-4129-ac22-5a869d3c4137")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "C?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "C5")
 					(unit 1)
@@ -3511,13 +3511,13 @@
 			(uuid "3009647b-35b0-45e3-a3f4-f5e117d5d36c")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "U?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "U4")
 					(unit 1)
@@ -3591,13 +3591,13 @@
 			(uuid "759b2fc1-d9dc-4461-abf6-b95d0c2c37f7")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR022")
 					(unit 1)
@@ -3671,13 +3671,13 @@
 			(uuid "0837d0e0-df13-4846-91d8-a3ad5d8ceb54")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR015")
 					(unit 1)
@@ -3764,13 +3764,13 @@
 			(uuid "45fc636e-f017-4e75-97c6-f82bfdb68dd2")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "C?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "C8")
 					(unit 1)
@@ -3844,13 +3844,13 @@
 			(uuid "a0306ecc-19d6-47ea-ab52-d4e9917614fd")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR024")
 					(unit 1)
@@ -3924,13 +3924,13 @@
 			(uuid "66a14b3f-3539-476e-ac7d-2633b6e9b0c9")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "#PWR?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "#PWR023")
 					(unit 1)
@@ -4017,13 +4017,13 @@
 			(uuid "1559a360-cf99-4eab-81c9-deb48e90cdfa")
 		)
 		(instances
-			(project "can_channel"
+			(project "CANopy_branch"
 				(path "/9116dce4-ee6f-4c1d-b606-42cf2e075a74"
 					(reference "C?")
 					(unit 1)
 				)
 			)
-			(project "can-hat"
+			(project "CANopy"
 				(path "/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e"
 					(reference "C7")
 					(unit 1)

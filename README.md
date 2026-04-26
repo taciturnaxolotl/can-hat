@@ -1,9 +1,9 @@
-# can-hat
+# CANopy
 
-![the main schematic](https://cdn.hackclub.com/019dc829-20e5-78ac-9db8-4ea4736f9ba4/can-hat.svg)
-![the can channel schematic](https://cdn.hackclub.com/019dc829-1d3c-7ace-a1cf-2922d84d61cc/can_channel.svg)
+![the main schematic](https://cdn.hackclub.com/019dc829-20e5-78ac-9db8-4ea4736f9ba4/CANopy.svg)
+![the branch schematic](https://cdn.hackclub.com/019dc829-1d3c-7ace-a1cf-2922d84d61cc/CANopy_branch.svg)
 
-The canonical repo for this is hosted on tangled over at [`dunkirk.sh/can-hat`](https://tangled.org/dunkirk.sh/can-hat)
+The canonical repo for this is hosted on tangled over at [`dunkirk.sh/CANopy`](https://tangled.org/dunkirk.sh/CANopy)
 
 ## BOM
 
@@ -33,5 +33,5 @@ The AT24C32D write-protect pin should have a jumper pad or test point so it can 
 </p>
 
 <p align="center">
-    <a href="https://tangled.org/dunkirk.sh/can-hat/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=CERN-OHL-S%20v2&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
+    <a href="https://tangled.org/dunkirk.sh/CANopy/blob/main/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=CERN-OHL-S%20v2&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a>
 </p>
