@@ -3120,6 +3120,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5632692"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11703c9f-dd51-462a-a295-54bb39660c3a")
 		)
@@ -3321,6 +3330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd08dee9-45cb-4220-8363-9c4513396ac0")
 		)
@@ -3383,6 +3401,15 @@
 		)
 		(property "Description" "2-Kbit (256 x 8-bit) I2C Serial EEPROM, chip address inputs (A0, A1, A2), write-protect pin (WP), 4.5..5.5V supply, SOIC-8"
 			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C60583"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3607,6 +3634,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f3e307f-ff2f-43c1-8985-eb403ba52c24")
 		)
@@ -3735,6 +3771,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23196"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,6 +4253,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5632692"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27b111c6-2f3f-4e29-8620-c8ade97014f0")
 		)
@@ -4335,6 +4389,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 81.28 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23196"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4665,6 +4728,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 38.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5632692"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,6 +5337,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6f980834-dc4c-495b-a28c-0a5e7e95ae71")
 		)
@@ -5285,7 +5366,7 @@
 		(at 93.98 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e0ab15a1-2f17-486a-a0b6-8489b2b2d233")
@@ -5484,7 +5565,7 @@
 		(at 129.54 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
