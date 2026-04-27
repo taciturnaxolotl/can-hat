@@ -15,14 +15,32 @@ The canonical repo for this is hosted on tangled over at [`dunkirk.sh/CANopy`](h
 | [3.9kΩ 0603](https://www.lcsc.com/product-detail/C23196.html) | EEPROM SDA/SCL pull-ups to 3.3V, PCBA | 100 | $0.16 | LCSC |
 | [120Ω 0603](https://www.lcsc.com/product-detail/C25879.html) | CAN bus termination resistors, one per channel, PCBA | 100 | $0.09 | LCSC |
 | [10µF 0805](https://www.lcsc.com/product-detail/C15850.html) | Bulk caps for 3.3V and 5V rails, PCBA | 20 | $0.43 | LCSC |
-| [100nF 0603 X7R](https://www.lcsc.com/product-detail/C14663.html) | Decoupling caps for all ICs, PCBA | 100 | $0.30 | LCSC |
+| [1µF 0603 X5R](https://www.lcsc.com/product-detail/C15849.html) | Decoupling caps for all ICs, PCBA | 100 | $0.56 | LCSC |
 | [15EDGRC-3.5-02P (plug & header)](https://www.lcsc.com/product-detail/C5632692.html) | PCB-side right-angle pluggable terminal block, 3.5mm pitch, 2-pin, hand solder | 10 | $3.21 | LCSC |
 | [AT24C32D-SSHM-T](https://www.lcsc.com/product-detail/C60583.html) | 32Kbit I2C EEPROM for HAT ID, SOIC-8, hand solder | 5 | $1.48 | LCSC |
 | [OVETGLJANF-40MHZ](https://www.lcsc.com/product-detail/C295515.html) | 40MHz active oscillator, 3.3V, SMD5032-4P, hand solder | 11 | $6.14 | LCSC |
 | [MCP2562FDT-E/SN](https://www.lcsc.com/product-detail/C511335.html) | CAN FD transceiver with VIO pin, SOIC-8, hand solder | 11 | $12.87 | LCSC |
 | [MCP2518FDT-H/SL](https://www.lcsc.com/product-detail/C626759.html) | CAN FD SPI controller, SOIC-14, hand solder | 11 | $27.07 | LCSC |
 
-The AT24C32D write-protect pin should have a jumper pad or test point so it can be pulled low to flash, then left pulled high permanently after.
+For use with the SystemCore the RSL can be emulated via the following
+
+```python
+# pseudocode
+gpio = /sys/class/gpio/gpioXX/value
+while True:
+  enabled = read("/sys/kernel/can_heartbeat/enabledro")
+  gpio.write(enabled)
+  # add blink pattern logic for disabled state
+  sleep(0.05)
+```
+
+### todo
+
+- [ ] add testpoints on i2c and can rx/tx 0.1" header
+- [ ] add termination resister jumper (dip switch block)
+- [ ] add rsl mosfet switching ground
+- [ ] [5v 5a pololu](https://www.pololu.com/product/2851)
+- [ ] new screw blocks [DEGSON DG500-5.08-02P-14-00A(H)](https://www.lcsc.com/product-detail/C691859.html)
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/taciturnaxolotl/carriage/main/.github/images/line-break.svg" />
