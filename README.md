@@ -41,6 +41,8 @@ while True:
 - [ ] add rsl mosfet switching ground
 - [ ] [5v 5a pololu](https://www.pololu.com/product/2851)
 - [ ] new screw blocks [DEGSON DG500-5.08-02P-14-00A(H)](https://www.lcsc.com/product-detail/C691859.html)
+- [ ] esd diodes on the gpio pins for rsl
+- [ ] 120 ohm differential pairs for can
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/taciturnaxolotl/carriage/main/.github/images/line-break.svg" />
