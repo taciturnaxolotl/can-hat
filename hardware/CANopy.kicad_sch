@@ -2994,6 +2994,26 @@
 		)
 		(uuid "1c042b37-55ff-4b28-a183-c377392d7ba2")
 	)
+	(label "SPI3_MOSI"
+		(at 26.67 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dffc67f-ecc1-4743-9f81-0dce2587a962")
+	)
+	(label "SPI1_MOSI"
+		(at 26.67 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2834e6bc-b743-41f5-9b8c-fd541c498473")
+	)
 	(label "SPI1_INT1"
 		(at 59.69 64.77 0)
 		(effects
@@ -3043,6 +3063,16 @@
 			(justify left bottom)
 		)
 		(uuid "47b25165-5e9f-4b5a-ab77-01189d320d50")
+	)
+	(label "SPI1_SCLK"
+		(at 26.67 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55516e89-d4a9-4de1-8ab5-cc84e78a04c0")
 	)
 	(label "SPI1_INT0"
 		(at 198.12 41.91 0)
@@ -3104,16 +3134,6 @@
 		)
 		(uuid "8b00bbd2-d147-4c8e-b739-b934561e23c5")
 	)
-	(label "SPI3_MOSI"
-		(at 26.67 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b1726c2-6096-4b72-bd13-1980369c01ed")
-	)
 	(label "SPI1_MISO"
 		(at 59.69 67.31 0)
 		(effects
@@ -3125,14 +3145,14 @@
 		(uuid "91369cf1-c668-4436-b570-03d19da62d24")
 	)
 	(label "SPI1_SCLK"
-		(at 26.67 64.77 180)
+		(at 26.67 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "915df1b0-de1e-4dc1-b64f-e018444ce511")
+		(uuid "a6849478-008c-4f02-b8fe-aaac6c961424")
 	)
 	(label "SPI3_SCLK"
 		(at 149.86 59.69 180)
@@ -3143,6 +3163,26 @@
 			(justify right bottom)
 		)
 		(uuid "a6c0082a-cdeb-41aa-bda7-7ac80438e955")
+	)
+	(label "SPI1_MOSI"
+		(at 26.67 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a92fb495-b917-4c9b-97fc-66aab5580637")
+	)
+	(label "SPI3_SCLK"
+		(at 26.67 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2d5640f-6e05-4e5b-88e1-273265e7257b")
 	)
 	(label "SPI3_MISO"
 		(at 198.12 54.61 0)
@@ -3184,16 +3224,6 @@
 		)
 		(uuid "cd0b9f65-d818-47e6-87dd-88db62fe2cbc")
 	)
-	(label "SPI3_SCLK"
-		(at 26.67 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ce489dea-b695-43a3-82eb-46b27171c003")
-	)
 	(label "ID_SC"
 		(at 198.12 57.15 0)
 		(effects
@@ -3234,16 +3264,6 @@
 		)
 		(uuid "e9bdcc48-f8f3-4f64-b874-3d06e7fa43ed")
 	)
-	(label "SPI1_MOSI"
-		(at 26.67 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef9ca4f4-b071-4a40-96ac-4bcd697d7ada")
-	)
 	(label "WriteProtect"
 		(at 110.49 59.69 0)
 		(effects
@@ -3253,26 +3273,6 @@
 			(justify left bottom)
 		)
 		(uuid "f466cf17-a89c-4f5b-9574-06926aa13710")
-	)
-	(label "SPI1_SCLK"
-		(at 26.67 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f57e2864-cd7b-4174-89e6-21f7f047bb18")
-	)
-	(label "SPI1_MOSI"
-		(at 26.67 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6e5007a-ddd0-46cc-8972-902a68137ed3")
 	)
 	(label "WriteProtect"
 		(at 109.22 38.1 0)
