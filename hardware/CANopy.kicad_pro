@@ -246,7 +246,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|304800|469900|069e495b-44d5-4054-b32d-604cd936a034|069e495b-44d5-4054-b32d-604cd936a034|/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/cffcbb79-f928-4938-8342-415f3cadb2dd|/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/cffcbb79-f928-4938-8342-415f3cadb2dd|/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/00e2c20b-7be4-4f83-a3f0-21fb1d83928e",
+        "pin_to_pin|304800|469900|069e495b-44d5-4054-b32d-604cd936a034|069e495b-44d5-4054-b32d-604cd936a034|/bfdea6a0-b5c8-4489-9fa0-a972c3ff35f2/cffcbb79-f928-4938-8342-415f3cadb2dd||",
         "CS on SPI1 makes this a non issue"
       ]
     ],
@@ -498,17 +498,17 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.3556,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "CAN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
-        "via_diameter": 0.8,
+        "track_width": 0.1095,
+        "via_diameter": 5.0,
         "via_drill": 0.4
       },
       {
@@ -719,11 +719,11 @@
       "CAN0"
     ],
     [
-      "00e2c20b-7be4-4f83-a3f0-21fb1d83928e",
+      "5ae3e1ba-a0ea-4b68-a987-5d33cdcd905a",
       "CAN1"
     ],
     [
-      "748c85b6-cf1e-459f-b03b-a42e443a0481",
+      "c2e2c2f4-179d-4d8f-95d3-f4ddaeab6aad",
       "CAN2"
     ]
   ],
